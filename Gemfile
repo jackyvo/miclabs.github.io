@@ -47,6 +47,9 @@ gem 'jekyll-gist', '~> 1.0'
 gem 'mime-types', '~> 2.6'
 gem 'kramdown', '~> 1.9'
 
+gem 'jekyll-slim'
+gem 'slim', github: 'slim-template/slim'
+
 platform :ruby, :mswin, :mingw do
   gem 'rdiscount', '~> 2.0'
   gem 'pygments.rb', '~> 0.6.0'

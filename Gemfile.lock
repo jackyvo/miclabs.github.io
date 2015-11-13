@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/slim-template/slim.git
+  revision: 8a4abead17e408aa76172150f595e6623cce80b1
+  specs:
+    slim (3.0.6)
+      temple (~> 0.7.6)
+      tilt (>= 1.3.3, < 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -52,6 +60,9 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
+    jekyll-slim (0.8.2)
+      jekyll (>= 0.10.0)
+      slim
     jekyll-watch (1.3.0)
       listen (~> 3.0)
     jekyll_test_plugin (0.1.0)
@@ -117,7 +128,9 @@ GEM
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
     slop (3.6.0)
+    temple (0.7.6)
     thread_safe (0.3.5)
+    tilt (2.0.1)
     toml (0.1.2)
       parslet (~> 1.5.0)
     tzinfo (1.2.2)
@@ -135,6 +148,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist (~> 1.0)
   jekyll-paginate (~> 1.0)
+  jekyll-slim
   jekyll_test_plugin
   jekyll_test_plugin_malicious
   kramdown (~> 1.9)
@@ -154,4 +168,5 @@ DEPENDENCIES
   rspec-mocks
   shoulda (~> 3.5)
   simplecov (~> 0.9)
+  slim!
   toml (~> 0.1.0)
