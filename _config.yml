@@ -10,6 +10,8 @@ twitter_username: hoaianr
 github_username:  hoaianr
 facebook_username:  hoaian_uit
 
+gems: [jekyll-paginate]
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
