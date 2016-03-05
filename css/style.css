@@ -3756,6 +3756,9 @@ body {
 [dir="rtl"] .slick-next:before {
   content: "←";
 }
+.logo img{
+	width: 250px;
+}
 
 /* Dots */
 .slick-slider {
