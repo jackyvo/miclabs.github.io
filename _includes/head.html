@@ -5,10 +5,10 @@
     <meta content='' name='description'>
     <meta content='' name='author'>
     <link rel="icon" href="/img/logo_icon.png" sizes="32x32">
-    <!--
-      hash is
-    -->
-    <title>MicroSun Lab - VietNam</title>
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
     <link href="/css/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="/css/skins.css" media="screen" rel="stylesheet" type="text/css" />
