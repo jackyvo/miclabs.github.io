@@ -4098,3 +4098,22 @@ body {
     display: none;
   }
 }
+
+
+/* ***** custome ******/
+
+.service-details {
+	text-align: left;
+}
+
+.service-details ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+.service-details ul li {
+	background: url(./images/icon_check.png) no-repeat left top;
+  padding-left: 30px;
+  margin-bottom: 0.5em;
+
+}
