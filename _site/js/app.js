@@ -3,6 +3,16 @@ jQuery(document).ready(function() {
   jQuery('.mod').each(function() {
     jQuery(this).attr('data-connectors', '1');
   });
+
+  var maxHeight = 0;
+
+  jQuery('.slick-slide.slick-active').each(function(){
+     var thisH = jQuery(this).height();
+     if (thisH > maxHeight) { maxHeight = thisH; }
+  });
+
+  jQuery('.slick-slide.slick-active').height(maxHeight);
+
 });
 
 // extend Tc.Module Class
