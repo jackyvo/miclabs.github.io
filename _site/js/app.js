@@ -774,10 +774,10 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-  Tc.Module.SectionHeader = Tc.Module.extend({    
+  Tc.Module.SectionHeader = Tc.Module.extend({
     init: function($ctx, sandbox, modId) {
       this._super($ctx, sandbox, modId);
-    },    
+    },
     dependencies: function() {
     },
     onBinding: function() {
@@ -831,9 +831,9 @@ jQuery(document).foundation();
 
       var path = window.location.pathname;
 
-      
+
         if ( path.match(/^\/wrap(\/)?(\/\w+\.html)?$|(\/demo\-[2-3])/) ) {
-      
+
 
         var color_scheme = this.readCookie('color_scheme');
 
@@ -895,13 +895,13 @@ jQuery(document).foundation();
         if (target) {
           var host = window.location.host;
           if ( target == 'demo-1' ) {
-            
+
               window.location = 'http://' + host + '/wrap/' + 'index.html';
-            
+
           } else {
-            
+
               window.location = 'http://' + host + '/wrap/' + target + '/index.html';
-            
+
           }
 
         }
