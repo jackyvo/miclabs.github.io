@@ -4132,5 +4132,16 @@ body {
 .member {
 	filter: grayscale(100%);
 	max-height: 345px;
+}
 
+.center{
+	text-align: center;
+}
+
+.stars{
+	font-size: 30px;
+	max-width: 300px;
+	margin: auto;
+	border: none;
+	border-bottom: 3px solid #ddd;
 }
