@@ -3530,6 +3530,7 @@ body {
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+  text-align: center;
 }
 .modTeamMember ul {
   margin: 0;
@@ -3556,7 +3557,7 @@ body {
 	color: #009688;
 }
 .modTeamMember img {
-  width: 100%;
+  width: 200px;
   border-radius: 500px;
   padding: 5px;
   border: 1px solid #ddd;
