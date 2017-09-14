@@ -409,6 +409,10 @@
 	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
 }
 
+.teams .columns {
+  height: 434px;
+}
+
 /* Icons
 ----------------------------------*/
 
