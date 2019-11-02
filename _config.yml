@@ -1,10 +1,10 @@
 # Site settings
-title: MIC International Lab
+title: MIC International Labs
 header-img: /img/home-bg.jpg
 email: jackyinvn@gmail.com
 description: "Share what I'm loving and doing"
 baseurl: ""
-url: "http://www.micslabs.com"
+url: "https://www.miclabs.co"
 
 twitter_username: hoaianr
 github_username:  hoaianr
