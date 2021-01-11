@@ -53,7 +53,7 @@ gem 'slim', github: 'slim-template/slim'
 platform :ruby, :mswin, :mingw do
   gem 'rdiscount', '~> 2.0'
   gem 'pygments.rb', '~> 0.6.0'
-  gem 'redcarpet', '~> 3.2', '>= 3.2.3'
+  gem 'redcarpet', '~> 3.5'
   gem 'classifier-reborn', '~> 2.0'
   gem 'liquid-c', '~> 3.0'
 end
