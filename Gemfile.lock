@@ -106,7 +106,7 @@ GEM
     rdiscount (2.1.8)
     rdoc (4.2.0)
       json (~> 1.4)
-    redcarpet (3.3.3)
+    redcarpet (3.5.1)
     redgreen (1.2.2)
     rouge (1.10.1)
     rspec-mocks (3.4.0)
@@ -163,7 +163,7 @@ DEPENDENCIES
   rake (~> 10.1)
   rdiscount (~> 2.0)
   rdoc (~> 4.2)
-  redcarpet (~> 3.2, >= 3.2.3)
+  redcarpet (~> 3.5)
   redgreen (~> 1.2)
   rspec-mocks
   shoulda (~> 3.5)
